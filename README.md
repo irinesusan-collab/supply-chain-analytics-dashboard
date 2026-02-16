@@ -29,6 +29,3 @@ The main KPI investigated is OTIF (On-Time In-Full), a gold-standard metric in s
 - `Supply_Chain_Dummy_1000_Rows.csv` → dataset
 - `executive_summary.csv` → aggregated metrics
 
----
-
-Created as an intermediate portfolio project demonstrating end-to-end data analytics workflow.
