@@ -1,24 +1,34 @@
-# Supply Chain Performance Dashboard
+# Supply Chain Performance Analytics Dashboard
 
 ## Project Overview
-This project analyzes supply chain performance using SQL, Python, and Power BI to evaluate operational efficiency and supplier risk.
+This project analyzes supply chain operations using SQL, Python, and Power BI to evaluate supplier performance and delivery efficiency.
 
-## Key KPIs
-- OTIF Rate (On-Time In-Full): 1.7%
-- Average Delivery Delay by Warehouse
-- Supplier Risk Analysis
+The main KPI investigated is OTIF (On-Time In-Full), a gold-standard metric in supply chain management.
 
-## Business Insights
-The OTIF rate is critically low, indicating systemic fulfillment issues.
-Sharjah DC shows the highest average delay.
-Supplier analysis reveals high-volume vendors with high delivery risk.
+## Key Findings
+- OTIF rate is only 1.7%, indicating severe delivery performance issues
+- Average delivery delays vary significantly across warehouses
+- Forecasting model predicts stable demand ~11,000 units/month
+- Supplier risk patterns identified through delay vs order volume analysis
 
 ## Tools Used
-- SQLite (SQL analytics)
-- Python (forecasting + demand analysis)
-- Power BI (executive dashboard)
+- SQL (SQLite) – performance scorecard
+- Python (Pandas, Scikit-learn) – forecasting & analytics
+- Power BI – executive dashboard
+- GitHub – project version control
+
+## Dashboard Sections
+1. Operations Overview – OTIF performance gauge
+2. Warehouse Efficiency – delivery delay comparison
+3. Supplier Risk – scatter risk visualization
 
 ## Files
-- supplier_queries.sql → performance scorecard logic
-- analysis_notebook.ipynb → forecasting model
-- dashboard.pbix → Power BI dashboard
+- `analysis_notebook.ipynb` → Python analytics
+- `supplier_scorecard.sql` → SQL KPI logic
+- `Dashboard.pbix` → Power BI dashboard
+- `Supply_Chain_Dummy_1000_Rows.csv` → dataset
+- `executive_summary.csv` → aggregated metrics
+
+---
+
+Created as an intermediate portfolio project demonstrating end-to-end data analytics workflow.
